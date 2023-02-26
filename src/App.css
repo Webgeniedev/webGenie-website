@@ -1,3 +1,7 @@
+body {
+  margin-top: 4rem;
+}
+
 .content {
   text-align: center;
   width: 30%;
@@ -26,5 +30,27 @@ h1 {
   }
   to {
     transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .pulse {
+    font-size: 2rem;
+  }
+
+  .content {
+    width: 60%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .para {
+    font-size: 1rem;
   }
 }
